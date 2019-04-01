@@ -1,0 +1,332 @@
+header .header-top {
+  background: #0ac2b6;
+  color: #0f0f0f;
+  padding: 30px 0;
+}
+header .header-top .btn {
+  outline: none;
+  box-shadow: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #0f0f0f;
+}
+header .header-top .time {
+  font-size: 1.1rem;
+}
+header .header-top .cart a {
+  color: #0f0f0f !important;
+  text-decoration: none!important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header-top .cart a i {
+  font-size: 2.8rem;
+}
+header .header-top .cart a span {
+  font-size: 1rem;
+  font-weight: 500;
+}
+header .header-bottom {
+  background: #ededed;
+  padding: 0px 0;
+  text-align: justify;
+}
+header .header-bottom ul.navbar-nav {
+  width: 100%;
+  justify-content: space-between;
+}
+header .header-bottom a {
+  color: #0f0f0f !important;
+  text-decoration: none!important;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.phone a {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #0f0f0f !important;
+  text-decoration: none;
+}
+.phone div {
+  font-size: 1.1rem;
+}
+.h2.black {
+  color: #0f0f0f;
+}
+.h2.white {
+  color: #ffffff;
+}
+.h2 {
+  padding: 40px 0 40px 0;
+  font-size: 2.5rem;
+}
+section.main {
+  background: url(../images/banner3.jpg) no-repeat center;
+  background-size: cover;
+}
+section.main .categories {
+  padding-top: 60px;
+}
+section.main .categories .col {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+section.main .categories a.dropdown-toggle {
+  color: #ffffff !important;
+  font-weight: 500;
+  text-decoration: underline!important;
+}
+section.main .categories a.dropdown-toggle:after {
+  display: none;
+}
+section.main .img-container {
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+.item-catalog {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.item-catalog .sale {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: inline-block;
+  padding: 3px 8px;
+  background: #f63e40;
+  color: #ffffff;
+}
+.item-catalog a.link-catalog {
+  display: inline-block;
+  position: relative;
+  text-decoration: none!important;
+  color: #0f0f0f;
+}
+.item-catalog a.link-catalog:hover .h3 {
+  text-decoration: underline;
+}
+.item-catalog .h3 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #0f0f0f;
+  line-height: 1rem;
+  padding: 20px 0;
+  margin: 0;
+}
+.item-catalog p {
+  line-height: 1.1rem;
+}
+.price {
+  padding-bottom: 20px;
+  font-weight: 600;
+  color: #0ac2b6;
+}
+.price.sale-price {
+  color: #f63e40;
+}
+.price.sale-price span {
+  color: #0ac2b6;
+  text-decoration: line-through;
+  display: inline-block;
+  margin-right: 10px;
+}
+.cart-add-cont input {
+  display: inline-block;
+  width: 80px;
+  height: 24px;
+  text-align: center;
+  outline: none;
+  border-radius: 4px;
+  background: none;
+  border: 1px solid #0f0f0f;
+}
+.input-container {
+  display: inline-block;
+  position: relative;
+}
+.minus,
+.plus {
+  position: absolute;
+  top: 2px;
+  font-size: 1.4rem;
+  line-height: 1rem;
+  cursor: pointer;
+  webkit-touch-callout: none;
+  /* iOS Safari */
+
+  -webkit-user-select: none;
+  /* Chrome/Safari/Opera */
+
+  -khtml-user-select: none;
+  /* Konqueror */
+
+  -moz-user-select: none;
+  /* Firefox */
+
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+
+  user-select: none;
+}
+.minus {
+  left: 5px;
+}
+.plus {
+  right: 5px;
+}
+.cart-add-button {
+  display: inline-block;
+  width: 160px;
+  line-height: 26px;
+  color: #ffffff !important;
+  margin-left: 10px;
+  background: #f63e40;
+  text-align: center;
+  text-decoration: none!important;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+.cart-add-button:hover {
+  background: #f10f70;
+}
+.more-link {
+  color: #7f7f7f;
+  text-decoration: none!important;
+  padding-bottom: 2px;
+  border-bottom: 1px dashed #7f7f7f;
+}
+.more-link:hover {
+  color: #0f0f0f !important;
+  border-bottom: 1px dashed #0f0f0f;
+}
+section.current {
+  padding-bottom: 60px;
+}
+section.stock {
+  background: #ededed;
+  padding-bottom: 60px;
+}
+section.stock a {
+  display: inline-block;
+  margin-bottom: 30px;
+}
+footer {
+  background: #0ac2b6;
+  padding: 60px;
+  color: #0f0f0f;
+}
+footer .logo-footer {
+  display: inline-block;
+  text-decoration: none!important;
+  width: 160px;
+  margin-bottom: 30px;
+}
+footer .footer-menu {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+footer .footer-menu li {
+  margin-bottom: 7px;
+}
+footer .footer-menu a {
+  color: #0f0f0f;
+  font-weight: 500;
+}
+.breadcrumb {
+  background: none!important;
+  padding: 0;
+  margin: 0;
+  padding: 30px 10px;
+}
+.breadcrumb a {
+  color: #0f0f0f;
+}
+section.catalog .filter {
+  color: #0f0f0f;
+}
+section.catalog .filter a {
+  color: #0f0f0f;
+  display: inline-block;
+  margin: 0 4px;
+}
+section.catalog .page {
+  margin-bottom: 60px;
+}
+section.catalog .page a {
+  text-decoration: underline;
+  display: inline-block;
+  margin: 0 2px;
+  color: #7f7f7f;
+}
+section.catalog .page a.active {
+  color: #0f0f0f;
+}
+.sidebar .item .filter-button {
+  display: block;
+  padding: 10px 12px;
+  font-weight: 500;
+  text-decoration: none!important;
+  background: #ededed;
+  border-radius: 4px;
+  margin: 10px 0;
+  color: #0f0f0f;
+  border: 1px solid #0f0f0f63;
+}
+.sidebar .item .h4 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.sidebar .h3 {
+  font-size: 1.6rem;
+  margin-bottom: 30px;
+  padding: 0;
+}
+section.product .h3 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30px;
+}
+section.product .head {
+  margin-bottom: 50px;
+}
+section.product .head .h4 {
+  font-size: 1.4rem;
+}
+section.product .head span {
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+section.product .desc {
+  margin-bottom: 30px;
+}
+section.product .button-container {
+  margin-bottom: 50px;
+}
+section.product .button-container span {
+  font-size: 1.3rem;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+section.product .button-container i {
+  font-size: 1.8rem;
+  position: relative;
+  top: 5px;
+}
+.reviews {
+  padding-top: 50px;
+  border-top: 1px solid #0f0f0f;
+}
+.reviews .img-circle {
+  border-radius: 100%;
+  overflow: hidden;
+}
+.reviews .name {
+  font-weight: 500;
+  font-size: 1.3rem;
+}
