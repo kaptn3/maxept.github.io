@@ -1,3 +1,13 @@
+body {
+  padding-top: 214px;
+}
+header {
+  z-index: 9;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
 header .header-top {
   background: #0ac2b6;
   color: #0f0f0f;
@@ -13,19 +23,43 @@ header .header-top .btn {
 header .header-top .time {
   font-size: 1.1rem;
 }
+header .header-top .cart {
+  position: relative;
+}
 header .header-top .cart a {
-  color: #0f0f0f !important;
+  color: #f63e40 !important;
   text-decoration: none!important;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
 }
 header .header-top .cart a i {
-  font-size: 2.8rem;
+  font-size: 4rem;
 }
 header .header-top .cart a span {
   font-size: 1rem;
   font-weight: 500;
+  width: 30px;
+  line-height: 30px;
+  border-radius: 100%;
+  background: #f63e40;
+  text-align: center;
+  color: #0f0f0f;
+}
+header .header-top .cart a:hover p {
+  display: inline-block;
+}
+header .header-top .cart p {
+  position: absolute;
+  top: 40%;
+  right: 100%;
+  font-weight: 500;
+  display: inline-block;
+  padding: 4px 6px;
+  background: #f63e40;
+  color: #0f0f0f;
+  border-radius: 4px;
+  box-shadow: 1px 1px 10px #0f0f0f;
+  display: none;
 }
 header .header-bottom {
   background: #ededed;
@@ -133,7 +167,7 @@ section.main .img-container {
 }
 .cart-add-cont input {
   display: inline-block;
-  width: 80px;
+  width: 100%;
   height: 24px;
   text-align: center;
   outline: none;
@@ -141,9 +175,15 @@ section.main .img-container {
   background: none;
   border: 1px solid #0f0f0f;
 }
+.cart-add-cont .form-control {
+  border: 1px solid #0f0f0f;
+}
 .input-container {
-  display: inline-block;
+  display: block;
   position: relative;
+  width: 40%;
+  float: left;
+  padding-right: 10px;
 }
 .minus,
 .plus {
@@ -176,12 +216,12 @@ section.main .img-container {
   right: 5px;
 }
 .cart-add-button {
-  display: inline-block;
-  width: 160px;
-  line-height: 26px;
+  display: block;
+  width: 60%;
+  float: left;
+  line-height: 31px;
   color: #ffffff !important;
-  margin-left: 10px;
-  background: #f63e40;
+  background: #0ac2b6;
   text-align: center;
   text-decoration: none!important;
   border-radius: 4px;
@@ -189,7 +229,7 @@ section.main .img-container {
   font-size: 0.9rem;
 }
 .cart-add-button:hover {
-  background: #f10f70;
+  background: #0ac2b6;
 }
 .more-link {
   color: #7f7f7f;
@@ -320,6 +360,7 @@ section.product .button-container i {
 }
 .reviews {
   padding-top: 50px;
+  margin: 50px 0;
   border-top: 1px solid #0f0f0f;
 }
 .reviews .img-circle {
