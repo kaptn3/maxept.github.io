@@ -11,4 +11,14 @@ $(document).ready(function(){
 			$(this).parent().find("input").val(value);
 		}
 	});
+	$(window).scroll(function(){
+		var position = $(window).scrollTop();
+		if (position > 200) {
+			$("header .cart").addClass("active");
+
+		}
+		else {
+			$("header .cart").removeClass("active");
+		}
+	});
 });

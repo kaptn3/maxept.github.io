@@ -1,12 +1,11 @@
-body {
-  padding-top: 214px;
-}
-header {
-  z-index: 9;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
+header .cart.active a {
+  position: fixed!important;
+  top: 100px;
+  right: 100px;
+  z-index: 999;
+  padding: 29px 18px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 100%;
 }
 header .header-top {
   background: #0ac2b6;

@@ -5,15 +5,17 @@
 @color5: #fff;    //белый
 @color6: #ededed; // серый
 @color7: #7f7f7f; // темносерый
-body {
-	padding-top: 214px;
-}
+
 header {
-	z-index: 9;
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
+	.cart.active a {
+		position: fixed!important;
+		top: 100px;
+		right: 100px;
+		z-index: 999;
+		padding: 29px 18px;
+		background: rgba(0, 0, 0, 0.1);
+		border-radius: 100%;
+	}
 	.header-top {
 		background: @color1;
 		color: @color2;
