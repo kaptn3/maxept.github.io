@@ -3,9 +3,13 @@ header .cart.active a {
   top: 100px;
   right: 100px;
   z-index: 999;
-  padding: 29px 18px;
+  padding: 18px 18px;
   background: rgba(0, 0, 0, 0.1);
   border-radius: 100%;
+}
+header .cart.active a span {
+  top: 55px!important;
+  right: 15px!important;
 }
 header .header-top {
   background: #0ac2b6;
@@ -23,18 +27,21 @@ header .header-top .time {
   font-size: 1.1rem;
 }
 header .header-top .cart {
+  text-align: right;
   position: relative;
 }
 header .header-top .cart a {
   color: #f63e40 !important;
   text-decoration: none!important;
-  display: flex;
-  align-items: flex-end;
+  position: relative;
 }
 header .header-top .cart a i {
   font-size: 4rem;
 }
 header .header-top .cart a span {
+  position: absolute;
+  top: 100%;
+  right: 0px;
   font-size: 1rem;
   font-weight: 500;
   width: 30px;
@@ -156,10 +163,10 @@ section.main .img-container {
   color: #0ac2b6;
 }
 .price.sale-price {
-  color: #f63e40;
+  color: #0f0f0f;
 }
 .price.sale-price span {
-  color: #0ac2b6;
+  color: #7f7f7f;
   text-decoration: line-through;
   display: inline-block;
   margin-right: 10px;

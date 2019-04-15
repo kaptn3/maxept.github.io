@@ -12,9 +12,13 @@ header {
 		top: 100px;
 		right: 100px;
 		z-index: 999;
-		padding: 29px 18px;
+		padding: 18px 18px;
 		background: rgba(0, 0, 0, 0.1);
 		border-radius: 100%;
+		span {
+			top: 55px!important;
+			right: 15px!important;
+		}
 	}
 	.header-top {
 		background: @color1;
@@ -32,18 +36,23 @@ header {
 			// font-weight: 700;
 		} 
 		.cart {
+			text-align: right;
 			position: relative;
 			a {
 				color: @color3!important;
 				text-decoration: none!important;
-				display: flex;
+				// display: flex;
 				// justify-content: space-between;
-				align-items: flex-end;
+				// align-items: flex-end;
+				position: relative;
 
 				i {
 					font-size: 4rem;	
 				}
 				span {
+					position: absolute;
+					top: 100%;
+					right: 0px;
 					font-size: 1rem;
 					font-weight: 500;
 					width: 30px;
@@ -180,9 +189,9 @@ section.main {
 	// text-shadow: 1px 1px 1px @color6;
 }
 .price.sale-price {
-	color: @color3;
+	color: @color2;
 	span {
-		color: @color1;
+		color: @color7;
 		text-decoration: line-through;
 		display: inline-block;
 		margin-right: 10px;
