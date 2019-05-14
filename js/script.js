@@ -1,24 +1,24 @@
 $(document).ready(function(){
-	$(".control").click(function(){
-		var value = $(this).parent().find("input").val();
-		if ($(this).hasClass("minus")) {
-			value--;
-			$(this).parent().find("input").val(value);
-
-		}
-		if ($(this).hasClass("plus")) {
-			value++;
-			$(this).parent().find("input").val(value);
-		}
-	});
-	$(window).scroll(function(){
-		var position = $(window).scrollTop();
-		if (position > 200) {
-			$("header .cart").addClass("active");
-
+	console.log(123);
+	$(".dropdown-btn").click(function(){
+		console.log(123);
+		if($(this).hasClass("active")) {
+			$(this).removeClass("active");
 		}
 		else {
-			$("header .cart").removeClass("active");
+			$(this).addClass("active");
+		}
+	});
+	$(".dropdown-item").click(function(e){
+		e.preventDefault();
+		$(this).parent().parent().find(".dropdown-btn").html($(this).html());
+	});
+	$(".filter-button").click(function(){
+		if($(this).hasClass("active")) {
+			$(this).removeClass("active");
+		}
+		else {
+			$(this).addClass("active");
 		}
 	});
 });
