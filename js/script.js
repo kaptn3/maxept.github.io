@@ -1,24 +1,67 @@
 $(document).ready(function(){
-	$(".control").click(function(){
-		var value = $(this).parent().find("input").val();
-		if ($(this).hasClass("minus")) {
-			value--;
-			$(this).parent().find("input").val(value);
-
-		}
-		if ($(this).hasClass("plus")) {
-			value++;
-			$(this).parent().find("input").val(value);
-		}
-	});
-	$(window).scroll(function(){
-		var position = $(window).scrollTop();
-		if (position > 200) {
-			$("header .cart").addClass("active");
-
+	console.log(123);
+	$(".dropdown-btn").click(function(){
+		$(".dropdown-btn").removeClass("active");
+		console.log(123);
+		if($(this).hasClass("active")) {
+			$(this).removeClass("active");
 		}
 		else {
-			$("header .cart").removeClass("active");
+			$(this).addClass("active");
+		}
+	});
+	$(".dropdown-item").click(function(e){
+		e.preventDefault();
+		$(this).parent().parent().find(".dropdown-btn").html($(this).html());
+	});
+	$(".filter-button").click(function(){
+		if($(this).hasClass("active")) {
+			$(this).removeClass("active");
+		}
+		else {
+			$(this).addClass("active");
+		}
+	});
+	$(".cross-icon").click(function(){
+		if ($(this).parent().hasClass("disable")) {
+			$(this).parent().removeClass("disable");
+		}
+		else {
+			$(this).parent().addClass("disable");
+		}
+		
+	});
+
+	var positionWindow = $(window).scrollTop();
+	if (positionWindow > 205) {
+		$(".cart").addClass("posAbs");
+	}
+	else {
+		$(".cart").removeClass("posAbs");
+	}
+	$(window).scroll(function(){
+		positionWindow = $(window).scrollTop();
+		if (positionWindow > 205) {
+			$(".cart").addClass("posAbs");
+		}
+		else {
+			$(".cart").removeClass("posAbs");
+		}
+	});
+	$(".slider").bxSlider({
+		minSlides: 1,
+		maxSlides: 5,
+		slideWidth: 340,
+		moveSlides: 1,
+		slideMargin: 40,
+		pager: false,
+		touchEnabled: false
+	});
+	$(document).mouseup(function (e){ // событие клика по веб-документу
+		var div = $(".dropdown"); // тут указываем ID элемента
+		if (!div.is(e.target) // если клик был не по нашему блоку
+		    && div.has(e.target).length === 0) { // и не по его дочерним элементам
+			$(".dropdown .dropdown-btn").removeClass("active"); // скрываем его
 		}
 	});
 });
