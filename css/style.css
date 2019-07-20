@@ -151,13 +151,13 @@ section.main .green-button {
 .product-item .button-container .dropdown {
   display: block;
   float: left;
-  width: 40%;
+  width: 35%;
   margin-right: 5%;
 }
 .product-item .button-container .green-button {
   display: block;
   float: left;
-  width: 55%;
+  width: 60%;
 }
 .product-item .green-button {
   line-height: 38px;
@@ -254,7 +254,7 @@ footer p.social a {
   font-size: 20px;
 }
 .filter-button {
-  font-size: 18px;
+  font-size: 1rem;
   font-weight: 600;
   color: #433092 !important;
   text-decoration: none!important;
@@ -614,4 +614,17 @@ section.all .slide {
 }
 .bx-viewport {
   padding-bottom: 180px;
+}
+.catalog-aside {
+  min-width: 235px;
+}
+
+@media screen and (max-width: 1199px) {
+  .product-item .button-container .dropdown {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .product-item .button-container .green-button {
+    width: 100%;
+  }
 }
