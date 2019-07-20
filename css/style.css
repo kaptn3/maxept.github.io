@@ -143,16 +143,21 @@ section.main .green-button {
   font-weight: 800;
   text-decoration: none!important;
 }
+@media screen and (max-width: 1440px) {
+  .green-button {
+    font-size: 1rem;
+  }
+}
 .product-item .button-container .dropdown {
   display: block;
   float: left;
-  width: 35%;
+  width: 40%;
   margin-right: 5%;
 }
 .product-item .button-container .green-button {
   display: block;
   float: left;
-  width: 60%;
+  width: 55%;
 }
 .product-item .green-button {
   line-height: 38px;
