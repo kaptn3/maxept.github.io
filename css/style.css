@@ -151,13 +151,13 @@ section.main .green-button {
 .product-item .button-container .dropdown {
   display: block;
   float: left;
-  width: 35%;
+  width: 40%;
   margin-right: 5%;
 }
 .product-item .button-container .green-button {
   display: block;
   float: left;
-  width: 60%;
+  width: 55%;
 }
 .product-item .green-button {
   line-height: 38px;
