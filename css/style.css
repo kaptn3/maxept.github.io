@@ -17,18 +17,20 @@ header nav a {
 header .drop-list {
   width: 100%;
   position: relative;
-  justify-content: space-between;
   flex-direction: row;
   margin: 0;
-  padding-top: 10px;
+  padding-top: 15px;
 }
 header ul {
   padding: 0;
   list-style: none;
   margin: 0;
 }
+header ul li {
+  padding: 10px 10px 20px;
+  margin-right: 15px;
+}
 header .menu-item-container {
-  padding: 5px 10px;
   border-radius: 15px 15px 0 0;
 }
 header .drop-container {
@@ -45,8 +47,13 @@ header .menu-item-container:hover .drop-container {
   display: block;
 }
 header .menu-item {
-  font-size: 24px;
+  font-size: 20px;
   color: #231f20 !important;
+}
+@media screen and (min-width: 1500px) {
+  header .menu-item {
+    font-size: 24px;
+  }
 }
 header .drop-container {
   background: #433092;
@@ -85,11 +92,11 @@ header .header-middle input {
 }
 header .header-middle .icons a {
   display: inline-block;
-  height: 50px;
-  width: 50px;
-  padding: 11px 15px;
+  height: 55px;
+  width: 55px;
+  padding: 14px 15px;
   border-radius: 100%;
-  margin: 0 20px;
+  margin: 0 14px;
   background: #433092;
   position: relative;
 }
@@ -126,8 +133,13 @@ section.main p {
   font-size: 50px;
 }
 section.main .row {
-  height: 647px;
+  height: 470px;
   align-items: center;
+}
+@media screen and (min-width: 1500px) {
+  section.main .row {
+    height: 647px;
+  }
 }
 section.main .green-button {
   max-width: 350px;
@@ -642,5 +654,30 @@ section.all .slide {
   }
   .product-item .button-container .green-button {
     width: 100%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .nav-right {
+    justify-content: flex-end;
+  }
+}
+@media screen and (max-width: 767px) {
+  .header-search {
+    order: 3;
+    width: 100%;
+    flex-basis: inherit;
+  }
+
+  .header-middle {
+    justify-content: space-between;
+    padding-top: 15px;
+  }
+}
+@media screen and (max-width: 575px) {
+  header .header-middle .icons a {
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
   }
 }
