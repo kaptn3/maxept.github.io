@@ -243,6 +243,22 @@ footer p.social a {
   display: inline-block;
   width: 60px;
 }
+footer p.social a:not(:last-child) {
+  margin-right: 12px;
+}
+@media screen and (max-width: 767px) {
+  footer p.social {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  footer {
+    padding: 50px 20px;
+  }
+  footer p {
+    font-size: 1rem;
+  }
+}
 .breadcrumb {
   background: none;
   padding: 30px 10px 60px 10px;
