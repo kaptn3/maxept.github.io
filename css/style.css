@@ -369,6 +369,8 @@ section.detail .icons {
 }
 section.detail .line {
   margin-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
 }
 section.detail .price {
   display: inline-block;
@@ -387,8 +389,17 @@ section.detail .price .old {
   color: #878787;
 }
 section.detail .description .dropdown {
-  width: 150px;
+  width: 100%;
+  max-width: 100px;
   display: inline-block;
+}
+section.detail .description .dropdown:not(:last-child) {
+  margin-right: 20px;
+}
+@media screen and (max-width: 768px) {
+  section.detail .description .dropdown:not(:last-child) {
+    margin-right: 10px;
+  }
 }
 section.detail .description .dropdown .dropdown-btn {
   border: 2px solid #433092;
@@ -401,6 +412,8 @@ section.detail .green-button {
 }
 section.detail .line span {
   color: #888888;
+  width: 100%;
+  margin-bottom: 18px;
 }
 section.detail .line.purple {
   color: #433092;
