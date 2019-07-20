@@ -245,9 +245,20 @@ section.popular .product-item {
 }
 footer {
   background: #2ebcae;
+}
+footer .row {
   padding: 50px;
 }
-footer p {
+.footer-bottom {
+  background-color: rgb(0, 176, 164);
+}
+.footer-bottom p {
+  color: #fff;
+  font-size: 14px;
+  margin: 0;
+  padding: 10px;
+}
+footer .row p {
   font-size: 20px;
   color: #fff;
 }
@@ -257,6 +268,7 @@ footer p.social a {
 }
 footer p.social a:not(:last-child) {
   margin-right: 12px;
+  margin-bottom: 12px;
 }
 @media screen and (max-width: 767px) {
   footer p.social {
@@ -264,8 +276,8 @@ footer p.social a:not(:last-child) {
     flex-wrap: wrap;
     justify-content: center;
   }
-  footer {
-    padding: 50px 20px;
+  footer .row {
+    padding: 50px 0 0;
   }
   footer p {
     font-size: 1rem;
@@ -660,6 +672,11 @@ section.all .slide {
 @media screen and (min-width: 992px) {
   .nav-right {
     justify-content: flex-end;
+  }
+}
+@media screen and (max-width: 991px) {
+  .footer-phone {
+    order: 1;
   }
 }
 @media screen and (max-width: 767px) {
