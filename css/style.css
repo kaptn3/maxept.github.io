@@ -277,7 +277,7 @@ footer p.social a:not(:last-child) {
     justify-content: center;
   }
   footer .row {
-    padding: 50px 0 0;
+    padding: 50px 15px 0;
   }
   footer p {
     font-size: 1rem;
@@ -697,4 +697,19 @@ section.all .slide {
     height: 50px;
     padding-top: 10px;
   }
+}
+.bx-wrapper .bx-controls-direction a {
+  top: 38%!important;
+  width: 45px!important;
+  height: 45px!important;
+}
+.bx-wrapper .bx-controls-direction a:first-child {
+  background: url(../images/icons-png/left.png) no-repeat center;
+  left: 0;
+  background-size: contain;
+}
+.bx-wrapper .bx-controls-direction a:last-child {
+  background: url(../images/icons-png/right.png) no-repeat center;
+  background-size: contain;
+  right: 0;
 }
