@@ -389,9 +389,9 @@ section.detail .h3 {
   font-weight: 800;
 }
 section.detail .carousel-inner {
-  width: 85%;
+  width: 70%;
   float: left;
-  margin-left: 5%;
+  margin-left: 12%;
 }
 section.detail .carousel-indicators {
   width: 10%;
@@ -769,7 +769,7 @@ section.all .slide {
   }
   section.detail .green-button,
   section.detail .price {
-    font-size: 18px;
+    font-size: 1rem;
   }
 }
 @media screen and (max-width: 1439px) {
