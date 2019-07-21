@@ -713,3 +713,8 @@ section.all .slide {
   background-size: contain;
   right: 0;
 }
+.header-map-icon {
+  width: 16px;
+  margin-right: 10px;
+  vertical-align: bottom;
+}
