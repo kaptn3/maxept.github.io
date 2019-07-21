@@ -101,6 +101,7 @@ header .header-middle .header-search-icon {
   background: transparent url(../images/icons-png/search-bg.png) no-repeat center;
   background-size: contain;
   border: none;
+  cursor: pointer;
 }
 header .header-middle .icons a {
   display: inline-block;
@@ -260,6 +261,7 @@ footer {
 }
 footer .row {
   padding: 50px;
+  margin: 0;
 }
 .footer-bottom {
   background-color: rgb(0, 176, 164);
@@ -452,6 +454,7 @@ section.detail .description .dropdown {
 }
 section.detail .description .dropdown:not(:last-child) {
   margin-right: 20px;
+  margin-bottom: 20px;
 }
 @media screen and (max-width: 768px) {
   section.detail .description .dropdown:not(:last-child) {
@@ -729,4 +732,41 @@ section.all .slide {
   width: 16px;
   margin-right: 10px;
   vertical-align: bottom;
+}
+@media screen and (max-width: 1919px) {
+  header .menu-item {
+    font-size: 18px;
+  }
+  section.popular .h3 {
+    font-size: 26px;
+  }
+  footer .row p {
+    font-size: 1rem;
+  }
+  section.main p {
+    font-size: 36px;
+  }
+  section.main .h2 {
+    font-size: 74px;
+  }
+}
+@media screen and (max-width: 1439px) {
+  section.popular .h2 {
+    font-size: 26px;
+    padding-bottom: 20px;
+  }
+  section.popular .h3 {
+    font-size: 20px
+  }
+}
+
+.dropdown-size:hover .dropdown-menu {
+  display: block;
+}
+.dropdown-size p {
+  background: #fff;
+  margin: 0;
+}
+.dropdown-menu {
+  overflow: hidden;
 }
