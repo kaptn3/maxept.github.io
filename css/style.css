@@ -82,6 +82,7 @@ header .header-middle {
 }
 header .header-middle .form-group {
   margin: 0;
+  position: relative;
 }
 header .header-middle input {
   height: 50px;
@@ -89,6 +90,17 @@ header .header-middle input {
   border: 2px solid #433092 !important;
   outline: none;
   box-shadow: none!important;
+}
+header .header-middle .header-search-icon {
+  position: absolute;
+  top: 0px;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background: transparent url(../images/icons-png/search-bg.png) no-repeat center;
+  background-size: contain;
+  border: none;
 }
 header .header-middle .icons a {
   display: inline-block;
