@@ -598,8 +598,13 @@ section.all .slide {
   color: #433092;
   font-size: 18px;
 }
-@media (max-width: 992px) {
-  
+@media (max-width: 1919px) {
+  .reviews-item p {
+    font-size: 1rem;
+  }
+  section.all .h4 {
+    font-size: 20px;
+  }
 }
 @media (max-width: 1200px) {
   .header-middle form {
