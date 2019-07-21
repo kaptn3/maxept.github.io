@@ -1,8 +1,7 @@
 $(document).ready(function(){
-	console.log(123);
 	$(".dropdown-btn").click(function(){
 		$(".dropdown-btn").removeClass("active");
-		console.log(123);
+
 		if($(this).hasClass("active")) {
 			$(this).removeClass("active");
 		}
