@@ -50,7 +50,7 @@ $(document).ready(function(){
 	$(".slider").bxSlider({
 		minSlides: 1,
 		maxSlides: 5,
-		slideWidth: 340,
+		slideWidth: 250,
 		moveSlides: 1,
 		slideMargin: 40,
 		pager: false,
