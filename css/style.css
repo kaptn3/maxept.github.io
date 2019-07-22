@@ -394,7 +394,7 @@ section.detail .carousel-inner {
   margin-left: 12%;
 }
 section.detail .carousel-indicators {
-  width: 10%;
+  width: 100%;
   margin: 0;
   display: block;
   position: static;
@@ -807,4 +807,12 @@ section.all .slide {
 .btn-carousel.down {
   margin-top: 20px;
   transform: rotate(90deg);
+}
+.carousel-navi {
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+}
+#carouselExampleIndicators {
+  display: flex;
 }
