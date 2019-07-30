@@ -98,7 +98,7 @@ header .header-middle .header-search-icon {
   width: 50px;
   height: 50px;
   border-radius: 100%;
-  background: #433092 url(../images/icons-png/search.png) no-repeat center;
+  background: #300878 url(../images/icons-png/search.png) no-repeat center;
   background-size: 30px;
   border: none;
   padding: 0;
@@ -111,7 +111,7 @@ header .header-middle .icons a {
   padding: 11px 15px;
   border-radius: 100%;
   margin: 0 14px;
-  background: #433092;
+  background: #300878;
   position: relative;
 }
 header .header-middle .icons a span {
