@@ -502,7 +502,8 @@ section.detail .desc .line {
 .evaluare {
   width: 150px;
   position: relative;
-  display: inline-block;
+  display: flex;
+  flex-direction: row-reverse;
 }
 .evaluare .negativ {
   width: 150px;
@@ -822,4 +823,23 @@ section.all .slide {
 }
 #carouselExampleIndicators {
   display: flex;
+}
+.evaluare-star {
+  background: url(../images/star.png) no-repeat center;
+  background-size: contain;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+input[name="star"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+.evaluare-star:hover,
+.evaluare-star:focus,
+.evaluare-star:hover ~ .evaluare-star,
+.evaluare-star:focus ~ .evaluare-star,
+input:checked ~ label {
+  background-image: url(../images/star_checked.png);
 }
