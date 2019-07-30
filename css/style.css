@@ -98,16 +98,17 @@ header .header-middle .header-search-icon {
   width: 50px;
   height: 50px;
   border-radius: 100%;
-  background: transparent url(../images/icons-png/search-bg.png) no-repeat center;
-  background-size: contain;
+  background: #433092 url(../images/icons-png/search.png) no-repeat center;
+  background-size: 30px;
   border: none;
+  padding: 0;
   cursor: pointer;
 }
 header .header-middle .icons a {
   display: inline-block;
-  height: 55px;
-  width: 55px;
-  padding: 14px 15px;
+  height: 50px;
+  width: 50px;
+  padding: 11px 15px;
   border-radius: 100%;
   margin: 0 14px;
   background: #433092;
