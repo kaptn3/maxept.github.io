@@ -666,6 +666,12 @@ section.all .slide {
   box-shadow: 0 0 8px #fff;
   z-index: 9999;
 }
+@media screen and (max-width: 991px) {
+  .cart.posAbs {
+    top: 20px;
+    right: 0;
+  }
+}
 .cart.posAbs span {
   box-shadow: 0 0 8px #fff;
 }
