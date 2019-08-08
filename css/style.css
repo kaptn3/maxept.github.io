@@ -355,6 +355,10 @@ footer p.social a:not(:last-child) {
 .checkbox input:checked + .checkbox__text .before {
   background: #2ebcae;
 }
+
+.checkbox-red input:checked + .checkbox__text .before {
+  background: red;
+}
 .checkbox input:checked + .checkbox__text:after {
   left: 26px;
 }
