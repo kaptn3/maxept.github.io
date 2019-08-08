@@ -500,7 +500,7 @@ section.detail .desc .line {
   margin-bottom: 20px;
 }
 .evaluare {
-  width: 150px;
+  width: 127px;
   position: relative;
   display: flex;
   flex-direction: row-reverse;
@@ -827,8 +827,8 @@ section.all .slide {
 .evaluare-star {
   background: url(../images/star.png) no-repeat center;
   background-size: contain;
-  height: 30px;
-  width: 30px;
+  height: 25px;
+  width: 25px;
   cursor: pointer;
 }
 input[name="star"] {
@@ -842,4 +842,26 @@ input[name="star"] {
 .evaluare-star:focus ~ .evaluare-star,
 input:checked ~ label {
   background-image: url(../images/star_checked.png);
+}
+
+.text-center .stars {
+  margin: auto;
+}
+
+.stars {
+  width: 135px;
+  background: url(../images/star.png);
+  background-size: contain;
+  height: 25px;
+  position: relative;
+}
+
+.stars .positiv {
+  background: url(../images/star_checked.png);
+  background-size: contain;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 22;
+  height: 25px;
 }
