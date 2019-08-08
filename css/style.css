@@ -614,16 +614,11 @@ section.all .slide {
   }
 }
 .social-menu.disable {
-  height: 70px;
+  height: 50px;
   overflow: hidden;
-  width: 70px;
+  width: 50px;
   top: auto;
   bottom: 20px;
-}
-.social-menu.disable .cross-icon {
-  position: absolute;
-  top: -1px;
-  left: -1px;
 }
 .social-menu.disable .cross-icon .close {
   display: none;
@@ -648,8 +643,8 @@ section.all .slide {
   margin: 10px 7px;
 }
 .social-menu .cross-icon {
-  width: 70px;
-  height: 70px;
+  width: 50px;
+  height: 50px;
   cursor: pointer;
   background: #433092;
   border-radius: 100%;
