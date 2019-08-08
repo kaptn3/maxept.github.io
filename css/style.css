@@ -108,7 +108,7 @@ header .header-middle .icons a {
   display: inline-block;
   height: 50px;
   width: 50px;
-  padding: 11px 15px;
+  padding: 10px;
   border-radius: 100%;
   margin: 0 14px;
   background: #300878;
@@ -633,7 +633,7 @@ section.all .slide {
 .social-menu {
   position: fixed;
   bottom: 20px;
-  right: 40px;
+  right: 15px;
   border-radius: 38px;
   padding: 0px 0;
   background: rgba(255, 255, 255, 0.4);
@@ -661,8 +661,8 @@ section.all .slide {
 }
 .cart.posAbs {
   position: fixed!important;
-  top: 80px;
-  right: 150px;
+  top: 40px;
+  right: 0;
   box-shadow: 0 0 8px #fff;
   z-index: 9999;
 }
