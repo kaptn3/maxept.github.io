@@ -623,6 +623,12 @@ section.all .slide {
   width: 50px;
   top: auto;
   bottom: 20px;
+  opacity: .5;
+}
+
+.social-menu.disable:hover,
+.social-menu.disable:focus {
+  opacity: 1;
 }
 .social-menu.disable .cross-icon .close {
   display: none;
