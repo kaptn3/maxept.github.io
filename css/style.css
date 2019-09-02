@@ -500,7 +500,7 @@ section.detail .desc .line {
   margin-bottom: 20px;
 }
 .evaluare {
-  width: 127px;
+  width: 100px;
   position: relative;
   display: flex;
   flex-direction: row-reverse;
@@ -820,14 +820,12 @@ section.all .slide {
 .evaluare-star {
   background: url(../images/star.png) no-repeat center;
   background-size: contain;
-  height: 25px;
-  width: 25px;
+  height: 20px;
+  width: 20px;
   cursor: pointer;
 }
 input[name="star"] {
-  appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
+  display: none;
 }
 .evaluare-star:hover,
 .evaluare-star:focus,
