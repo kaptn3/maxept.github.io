@@ -106,12 +106,11 @@ header .header-middle .header-search-icon {
 }
 header .header-middle .icons a {
   display: inline-block;
-  height: 50px;
-  width: 50px;
   border-radius: 100%;
   margin: 0 14px;
-  background: #300878;
   position: relative;
+  width: 50px;
+  height: 50px;
 }
 header .header-middle .icons a span {
   display: block;
@@ -127,9 +126,6 @@ header .header-middle .icons a span {
   position: absolute;
   top: 34px;
   right: 0px;
-}
-header .header-middle .icons a.active {
-  background: #ee2450;
 }
 section.main {
   background-size: cover;
@@ -727,13 +723,6 @@ section.all .slide {
   .header-middle {
     justify-content: space-between;
     padding-top: 15px;
-  }
-}
-@media screen and (max-width: 575px) {
-  header .header-middle .icons a {
-    width: 50px;
-    height: 50px;
-    padding-top: 10px;
   }
 }
 .bx-wrapper .bx-controls-direction a {
