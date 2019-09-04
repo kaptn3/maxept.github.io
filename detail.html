@@ -7,9 +7,8 @@
 
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
-	
+	<link rel="stylesheet" type="text/css" href="css/style.css">	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
 	<title>Pajamasnews</title>
 </head>
 <body>
@@ -390,10 +389,56 @@
 			</div>
 		</div>
 	</section>
-	<section class="all">
+	<section class="all" style="overflow-x: hidden;">
 		<div class="container-fluid">
 			<div class="h4">Похожие товары</div>
-			<div class="slider">
+			<div class="slider owl-carousel" style="z-index: 2">
+				<div class="item">
+					<div class="product-item">
+						<img src="images/item-img.jpg" class="img-fluid">
+						<p class="name text-center">Кигуруми Розовая пантера</p>
+						<p class="price text-center">1999р. <span class="old">2500р.</span></p>
+						<div class="button-container clearfix">
+							<div class="dropdown">
+								<a class="dropdown-btn" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							    	Размер
+							 	</a>
+
+								<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+							    	<a class="dropdown-item" href="#">100-110 см</a>
+									<a class="dropdown-item" href="#">110-120 см</a>
+									<a class="dropdown-item" href="#">120-130 см</a>
+									<a class="dropdown-item" href="#">130-140 см</a>
+									<a class="dropdown-item" href="#">140-150 см</a>
+								</div>
+							</div>
+							<a href="#" class="green-button">В корзину</a>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="product-item">
+						<img src="images/item-img.jpg" class="img-fluid">
+						<p class="name text-center">Кигуруми Розовая пантера</p>
+						<p class="price text-center">1999р. <span class="old">2500р.</span></p>
+						<div class="button-container clearfix">
+							<div class="dropdown">
+								<a class="dropdown-btn" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							    	Размер
+							 	</a>
+
+								<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+							    	<a class="dropdown-item" href="#">100-110 см</a>
+									<a class="dropdown-item" href="#">110-120 см</a>
+									<a class="dropdown-item" href="#">120-130 см</a>
+									<a class="dropdown-item" href="#">130-140 см</a>
+									<a class="dropdown-item" href="#">140-150 см</a>
+								</div>
+							</div>
+							<a href="#" class="green-button">В корзину</a>
+						</div>
+					</div>
+				</div>
 				<div class="item">
 					<div class="product-item">
 						<img src="images/item-img.jpg" class="img-fluid">
@@ -513,7 +558,7 @@
 
 			</div>
 			<div class="h4">С этим товаром покупают</div>
-			<div class="slider">
+			<div class="slider owl-carousel" style="z-index: 1">
 				<div class="item">
 					<div class="product-item">
 						<img src="images/item-img.jpg" class="img-fluid">
@@ -812,8 +857,7 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 	<script src="js/bootstrap.min.js"></script>
-
-	<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
 	<script type="" src="js/script.js"></script>
 </body>
 </html>

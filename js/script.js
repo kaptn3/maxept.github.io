@@ -47,7 +47,7 @@ $(document).ready(function(){
 			$(".cart").removeClass("posAbs");
 		}
 	});
-	$(".slider").bxSlider({
+	/*$(".slider").bxSlider({
 		minSlides: 1,
 		maxSlides: 5,
 		slideWidth: 250,
@@ -55,7 +55,27 @@ $(document).ready(function(){
 		slideMargin: 40,
 		pager: false,
 		touchEnabled: false
+	});*/
+	$(document).ready(function(){
+	  $(".owl-carousel").owlCarousel({
+	  	loop: true,
+	    margin: 15,
+	    nav: true,
+	    navText: ['', ''],
+	  	responsive:{
+	        0: {
+	            items: 1
+	        },
+	        600: {
+	            items: 3
+	        },
+	        1000: {
+	            items: 5
+	        }
+	    }
+	  });
 	});
+	$('.owl-carousel').find('.owl-nav').removeClass('disabled');
 	$(document).mouseup(function (e){ // событие клика по веб-документу
 		var div = $(".dropdown"); // тут указываем ID элемента
 		if (!div.is(e.target) // если клик был не по нашему блоку

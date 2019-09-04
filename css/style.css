@@ -869,3 +869,28 @@ input:checked ~ label {
   z-index: 22;
   height: 25px;
 }
+
+.owl-nav {
+  position: absolute;
+  top: 38%;
+  left: 0;
+  display: flex !important;
+  justify-content: space-between;
+  width: 100%;
+}
+.owl-nav button {
+  display: block;
+  width: 45px;
+  height: 45px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-color: transparent;
+}
+
+.owl-prev {
+  background-image: url(../images/icons-png/left.png);
+}
+.owl-next {
+  background-image: url(../images/icons-png/right.png);
+}
